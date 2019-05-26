@@ -4,7 +4,6 @@ header {
 
 display: flex;
 align-items: center;
-
 position: fixed;
 z-index: 1;
 width: 100%;
@@ -17,12 +16,15 @@ font-weight: bold;
 
 }
 
-.Logo {
+
+
+.logo {
 
   display: flex;
+  align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  align-items: center;
+
 }
 
 
