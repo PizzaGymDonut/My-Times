@@ -1,4 +1,4 @@
-
+/* NOTE: header content */
 
 header {
 
@@ -16,8 +16,6 @@ font-weight: bold;
 
 }
 
-
-
 .logo {
 
   display: flex;
@@ -26,7 +24,6 @@ font-weight: bold;
   padding-left: 30px;
 
 }
-
 
 .logo img {
 
@@ -42,5 +39,43 @@ font-weight: bold;
 
 header nav {
   padding-right: 40px;
+
+}
+
+
+/* NOTE: main contnet */
+
+.content {
+
+  display: flex;
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 78px;
+  padding-top: 116px;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 
 }
